@@ -1,0 +1,151 @@
+/* addClient.html*/
+.err_msg{
+    color:red;
+
+}
+
+title {
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+legend {
+    font-size: 30px;
+    text-align: center;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FEB377;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FEB377;
+}
+
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #1EB2A6;
+  text-align: right;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+
+body {
+    background-color: #FEB377;
+}
+
+
+/* body colour #FDE2E2*/
+
+/*fieldset colour #CFF1EF;*/
+
+label {
+    font-size: 20px;
+    font-style: bold;
+}
+
+/*border colour #73AD21
+ background colour fieldset
+ */
+
+fieldset {
+    background-color: #29C7AC;
+    border-radius: 25px;
+    border: 2px solid #FEB377;
+    padding: 10px;
+    width: 50%;
+    height: 40%;
+    margin: auto;
+
+}
+
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+input[type=text], input[type=password], input[type=email] {
+    width: 50%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+caselist {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+footer {
+    text-align: center;
+}
+
+
+nav {
+  background-color: #FEB377;
+  overflow: hidden;
+  text-align:  center;
+}
+
+/* Style the links inside the navigation bar */
+nav a {
+  float: center;
+  color: #1EB2A6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+nav a:hover {
+  background-color: #111;
+}

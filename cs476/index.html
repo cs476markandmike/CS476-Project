@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Regina Pro-bono Law</title>
+	<img src="pro-bono.png" alt="pro-bono">
+	<meta charset="utf-8">
+	<meta name="keywords" content="Regina Pro-bono, Regina Law, Pro-bono Lawyer Regina">
+	<meta name="description" content="Home of Regina Pro-Bono Law">
+	<script type="text/javascript" src="js/login.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="bg">
+	<header>
+		<h1>Regina Pro-Bono Law Society</h1>
+	</header>
+
+	<nav>
+		<a href="admin.html">Home</a>
+		<a href="javascript:javascript:history.go(-1)">Back</a>
+		<a href="index.html">Log Out</a>
+	</nav>
+
+	<section class="form">
+		<form method="POST" id="login" action="php/signIn.php">
+			<fieldset>
+				<h2>Sign In</h2>
+
+				<p>
+					<label>email</label>
+					<input type="text" name="user_email" id="user_email">
+
+				</p>
+				<p class="err_msg" id="email_msg"></p>
+				<p>
+					<label>password</label>
+					<input type="password" name="user_password" id="user_password">
+				</p>
+				<p class="err_msg" id="password_msg"></p>
+
+				<button type="submit" value="LogIn">Log In</button>
+				<button onclick="window.location.href='register.html'">Register</button>
+
+			</fieldset>
+
+		</form>s
+	</section>
+
+
+	<footer>
+		<article class="copyright">
+			<p>&copy 2020 - Michael Loseth and Mark Romanov</p>
+		</article>
+		<article class="contactUs">
+			<a href="mailto:regina.probono.law@example.ca" class="contactUs-email">regina.probono.law@exmaple.ca</a>
+			<a href="tel:+"13065555555>(306) 555-5555</a>
+		</article>
+	</footer>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="js/login-r.js"></script>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Regina Pro-bono Law</title>
+	<img src="pro-bono.png" alt="pro-bono">
+	<meta charset="utf-8">
+	<meta name="keywords" content="Regina Pro-bono, Regina Law, Pro-bono Lawyer Regina">
+	<meta name="description" content="Home of Regina Pro-Bono Law">
+	<script type="text/javascript" src="js/addClient.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Regina Pro-Bono Law</h1>
+	</header>
+
+	<nav>
+		<a href="/cs476/addClient.html">Add Client</a>
+		<a href="/cs476/removeClient.html">Remove Cleint</a>
+		<a href="/cs476/addNewClinic.html">Add a Clinic</a>
+		<a href="/cs476/matchClients.html">Match Clients/Lawyer</a>
+		<a href="/cs476/searchClients.html">Lookup Client</a>
+		<a href="/cs476/searchLawyers.html">Look up Lawyer</a>
+		<a href="index.html">Log Out</a>
+	</nav>
+
+	<section>
+		<form method="POST" id="addClient" action="addClient.php">
+			<fieldset>
+				<h2>Remove Client</h2>
+				<p>
+					<label>First Name</label>
+					<input type="text" name="first_name">
+				</p>
+				<p class="err_msg" id="first_name_msg"></p>
+
+				<p>
+					<label>Last Name</label>
+					<input type="text" name="last_name">
+				</p>
+				<p class="err_msg" id="last_name_msg"></p>
+
+				<p>
+					<label>Phone Number</label>
+					<input type="text" name="phone">
+				</p>
+				<p class="err_msg" id="phone_msg"></p>
+
+				<p>
+					<label>Home Address</label>
+					<input type="text" name="address">
+				</p>
+				<p class="err_msg" id="address_msg"></p>
+
+				<p>
+
+					<label>Case Type</label>
+					<select id="caseList">
+						<option value="Criminal">Criminal</option>
+						<option value="Family">Family</option>
+						<option value="Civil">Civil</option>
+						<option value="Bankruptcy">Bankruptcy</option>
+					</select>
+
+				</p>
+
+				<button type="submit">Add Client</button>
+				<button type="button">Reset</button>
+
+
+			</fieldset>
+		</form>
+		<script type="text/javascript" src="js/addClient-r.js"></script>
+
+	</section>
+
+	<footer>
+		<article class="copyright">
+			<p>&copy 2020 - Michael Loseth and Mark Romanov</p>
+		</article>
+		<article class="contactUs">
+			<a href="mailto:regina.probono.law@example.ca" class="contactUs-email">regina.probono.law@exmaple.ca</a>
+			<a href="tel:+"13065555555>(306) 555-5555</a>
+		</article>
+	</footer>
+</body>
+</html>
